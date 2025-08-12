@@ -1,0 +1,73 @@
+# 📘 Panduan Penggunaan GitHub Web & GitHub Desktop
+
+Dokumen ini menjelaskan langkah-langkah dasar penggunaan **GitHub Web** dan **GitHub Desktop** untuk pemula.
+
+---
+
+## 1. Menggunakan GitHub Web
+GitHub Web digunakan langsung di browser tanpa perlu aplikasi tambahan.
+
+### A. Membuat Repository
+1. Login ke [GitHub](https://github.com).
+2. Klik tombol **New** atau **New Repository**.
+3. Isi:
+   - **Repository name** → Nama project (contoh: `Forensik-Teknologi-Informasi`).
+   - **Description** → Deskripsi singkat project.
+   - Pilih **Public** (terlihat oleh semua orang) atau **Private** (hanya kamu yang bisa melihat).
+4. Klik **Create repository**.
+
+### B. Mengunggah File di GitHub Web
+1. Buka repository yang sudah dibuat.
+2. Klik **Add file** → **Upload files**.
+3. Pilih file dari komputer, lalu upload.
+4. Isi pesan **Commit changes** (contoh: `Menambahkan file awal`).
+5. Klik **Commit changes**.
+
+---
+
+## 2. Menggunakan GitHub Desktop
+GitHub Desktop memudahkan sinkronisasi file dari komputer ke GitHub.
+
+### A. Clone Repository (Menyalin Repo dari GitHub ke Komputer)
+1. Buka GitHub Desktop.
+2. Klik **File → Clone repository**.
+3. Pilih repository dari akun GitHub.
+4. Tentukan lokasi penyimpanan di komputer, lalu klik **Clone**.
+
+### B. Menambahkan File atau Mengedit File
+1. Buka folder repository di komputer (bisa klik **Show in Finder/Explorer** dari GitHub Desktop).
+2. Tambahkan file atau edit file yang sudah ada.
+3. Simpan perubahan.
+
+### C. Commit Perubahan
+1. Kembali ke GitHub Desktop.
+2. Pilih file yang berubah (tercentang otomatis).
+3. Isi **Summary** (contoh: `Menambahkan README.md`).
+4. Klik **Commit to main**.
+
+### D. Push ke GitHub
+1. Klik tombol **Push origin** di bagian atas GitHub Desktop.
+2. Perubahan akan terkirim ke GitHub Web.
+
+---
+
+## 3. Tips Penting
+- **Commit secara rutin** agar progress selalu tersimpan.
+- Gunakan **commit message** yang jelas dan deskriptif.
+- Selalu **Push** setelah commit untuk mengirim perubahan ke GitHub.
+
+---
+
+## 4. Istilah Penting
+| Istilah     | Arti                                                                 |
+|-------------|----------------------------------------------------------------------|
+| Repository  | Tempat penyimpanan project di GitHub.                                |
+| Commit      | Menyimpan perubahan ke repository lokal.                             |
+| Push        | Mengirim commit dari komputer ke GitHub.                             |
+| Pull        | Mengambil perubahan terbaru dari GitHub ke komputer.                 |
+| Clone       | Menyalin repository GitHub ke komputer.                              |
+
+---
+
+✍️ **Dibuat oleh**: Marthen Frikaldo  
+📅 **Tanggal**: 12 Agustus 2025
