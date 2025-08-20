@@ -1,0 +1,12 @@
+<changelist name="Changes" date="1755673637578" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="AFTER_PATH" value="network_protocol/images/internet_flow.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/internet_flow.png" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="network_protocol/images/osi_vs_tcpip.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/osi_vs_tcpip.png" />
+  </binary>
+</changelist>
