@@ -114,4 +114,4 @@ Alur sederhana Internet:
 
 ✍️ Dibuat Oleh : Sertu Ttg Marthen Frikaldo Antaribaba 
 
-Untuk dokumentasi belajar & riset.  
+Untuk dokumentasi belajar & riset..  
