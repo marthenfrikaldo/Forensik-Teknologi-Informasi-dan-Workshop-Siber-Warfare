@@ -63,7 +63,13 @@ Ringkasan konseptual berbasis literatur utama (mis. *Tallinn Manual 2.0*, dokume
 ## Lisensi
 Konten ringkasan ini dirilis di bawah **CC BY 4.0**.
 
-## Di Buat Oleh 
-- Sertu Keu Laksono Yoga Pratama.
-- Sertu Ttg Marthen F Antaribaba
-- Pratu Mar Nur Cayanto 
+## Di Buat Oleh
+- Sertu Keu Laksono Yoga Pratama  
+  <img src="images/122662.jpg" alt="Laksono" width="100"/>  
+
+- Sertu Ttg Marthen F Antaribaba  
+  <img src="images/122693.jpg" alt="Marthen" width="100"/>  
+
+- Pratu Mar Nur Cayanto  
+  <img src="images/125265.jpg" alt="Nur" width="100"/>
+

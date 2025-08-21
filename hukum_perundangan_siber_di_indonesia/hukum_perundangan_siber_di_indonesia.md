@@ -95,3 +95,5 @@ Konten ringkasan ini dirilis di bawah **CC BY 4.0**.
 
 ## Dibuat Oleh 
 Sertu Ttg Marthen Frikaldo Antaribaba
+- Sertu Ttg Marthen F Antaribaba  
+  <img src="images/122693.jpg" alt="Marthen" width="100"/>
