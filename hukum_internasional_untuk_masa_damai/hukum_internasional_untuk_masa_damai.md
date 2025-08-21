@@ -1,5 +1,5 @@
 # Hukum Internasional untuk Masa Damai: Spionase, Kejahatan Siber, dan Penggunaan Kekuatan di Luar Perang
-![img.png](img.png)
+![img.png](images/img.png)
 > **Terakhir diperbarui:** 21 Agustus 2025
 
 Ringkasan konseptual berbasis literatur utama (mis. *Tallinn Manual 2.0*, dokumen PBB, dewan Eropa) untuk konteks **masa damai** (*peacetime*).
@@ -13,7 +13,7 @@ Ringkasan konseptual berbasis literatur utama (mis. *Tallinn Manual 2.0*, dokume
 
 **Catatan praktik**
 - Eksposur publik, *naming and shaming*, sanksi, dan langkah kontra non‑memaksa sering dipakai ketika bukti hukum internasional “keras” sulit ditegakkan.
-![img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 ---
 
 ## 2) Kejahatan Siber (Cybercrime) lintas batas
@@ -24,7 +24,7 @@ Ringkasan konseptual berbasis literatur utama (mis. *Tallinn Manual 2.0*, dokume
 
 **Implikasi untuk penegak hukum/organisasi**
 - Harmonisasi pasal delik & prosedur forensik digital, *preservation orders*, dan saluran permintaan data lintas negara adalah kunci efektivitas.
-![img_3.png](img_3.png)
+![img_3.png](images/img_3.png)
 ---
 
 ## 3) Penggunaan Kekuatan di Luar Perang (Peacetime **use of force**)
