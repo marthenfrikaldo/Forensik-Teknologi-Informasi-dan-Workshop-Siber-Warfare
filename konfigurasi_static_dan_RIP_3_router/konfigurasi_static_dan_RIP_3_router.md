@@ -239,8 +239,8 @@ Router(config-router)# network 20.20.20.0
 | PC6       | 192.168.3.2  | 255.255.255.0   | 192.168.3.100   |
 
 <p align="center">
-  <img src="images/Gambar19.png" alt="Gambar 19. Konfigurasi IP PC5" width="400"/>
-  <img src="images/Gambar20.png" alt="Gambar 20. Konfigurasi IP PC6" width="400"/>
+  <img src="images/gambar19.png" alt="Gambar 19. Konfigurasi IP PC5" width="400"/>
+  <img src="images/gambar20.png" alt="Gambar 20. Konfigurasi IP PC6" width="400"/>
 </p>
 
 <p align="center">

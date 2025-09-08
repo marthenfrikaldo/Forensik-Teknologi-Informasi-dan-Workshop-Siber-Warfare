@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd25160-a157-4e44-b6ee-f7214ada249c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/images/gambar9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/konfigurasi_static_dan_RIP_3_router.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/konfigurasi_static_dan_RIP_3_router.md" beforeDir="false" afterPath="$PROJECT_DIR$/konfigurasi_static_dan_RIP_3_router/konfigurasi_static_dan_RIP_3_router.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,15 +25,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/marthenfrikaldoantaribaba/Documents/GitHub/Forensik-Teknologi-Informasi-dan-Workshop-Siber-Warfare"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/marthenfrikaldoantaribaba/Documents/GitHub/Forensik-Teknologi-Informasi-dan-Workshop-Siber-Warfare&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
