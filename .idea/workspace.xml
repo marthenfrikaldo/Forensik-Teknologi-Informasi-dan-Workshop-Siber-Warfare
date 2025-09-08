@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd25160-a157-4e44-b6ee-f7214ada249c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Static Routing Topology/images/gambar 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static Routing Topology/images/gambar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static Routing Topology/images/gambar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static Routing Topology/images/gambar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static Routing Topology/images/gambar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static Routing Topology/images/gambar7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static Routing Topology/images/gambar9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static Routing Topology/static_routing_topology.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9dd25160-a157-4e44-b6ee-f7214ada249c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
