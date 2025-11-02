@@ -205,8 +205,8 @@ Sekarang kita akan menggunakan Metasploit untuk mengeksploitasi kerentanan `vsft
 Ini adalah langkah paling krusial. Burp Suite bekerja sebagai *Man-in-the-Middle proxy*. Semua lalu lintas dari browser Anda akan diarahkan melalui Burp Suite sebelum sampai ke server target, memungkinkan Anda untuk melihat dan mengubahnya.
 
 1.  **Mulai Burp Suite**: Di Kali Linux, cari dan jalankan "Burp Suite Community Edition". Pilih *Temporary project* dan klik *Start Burp*.
-![Gambar 12.png](images/Gambar%2012.png)
-![gambar 13.png](images/gambar%2013.png)
+![gambar12.png](images/gambar12.png)
+![gambar13.png](images/gambar13.png)
 2.  **Konfigurasi Proxy**:
 
       * Di Burp Suite, pergi ke tab **Proxy \> Options**. Pastikan proxy listener aktif di `127.0.0.1:8080`.
