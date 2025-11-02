@@ -223,12 +223,13 @@ Ini adalah langkah paling krusial. Burp Suite bekerja sebagai *Man-in-the-Middle
 4.  **Instal Sertifikat CA Burp**:
 
       * Dengan proxy masih aktif, buka alamat `http://burpsuite` di Firefox.
+    
       * Klik tombol **CA Certificate** di pojok kanan atas untuk mengunduh file sertifikat (`cacert.der`).
-    ![gambar16.png](images/gambar16.png)
+    
       * Di Firefox, pergi ke **Settings \> Privacy & Security**, scroll ke bawah ke **Certificates**, klik **View Certificates...**.
-    ![gambar17.png](images/gambar17.png)
-      * Pilih tab **Authorities**, klik **Import...**.
     ![gambar18.png](images/gambar18.png)
+      * Pilih tab **Authorities**, klik **Import...**.
+    ![gambar20.png](images/gambar20.png)
       * Pilih file `cacert.der` yang baru diunduh.
       * Centang **Trust this CA to identify websites.** dan klik **OK**.
     ![gambar19.png](images/gambar19.png)
