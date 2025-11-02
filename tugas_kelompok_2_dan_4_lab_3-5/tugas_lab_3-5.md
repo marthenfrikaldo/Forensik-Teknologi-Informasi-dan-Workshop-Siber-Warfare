@@ -258,7 +258,7 @@ sequenceDiagram
 Metasploitable 2 memiliki aplikasi web yang sengaja rentan bernama *Damn Vulnerable Web Application* (DVWA).
 
 1.  **Akses DVWA**: Di Firefox (yang sudah dikonfigurasi proxy), buka `http://192.168.100.101/dvwa`.
-
+![gambar20.png](images/gambar20.png)
 2.  **Login**: Kredensial default adalah `admin` / `password`.
 
 3.  **Atur Tingkat Kesulitan**: Di menu kiri, klik **DVWA Security**. Ubah *security level* menjadi **Low** dan klik *Submit*.
