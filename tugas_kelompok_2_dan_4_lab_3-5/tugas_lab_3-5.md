@@ -205,16 +205,18 @@ Sekarang kita akan menggunakan Metasploit untuk mengeksploitasi kerentanan `vsft
 Ini adalah langkah paling krusial. Burp Suite bekerja sebagai *Man-in-the-Middle proxy*. Semua lalu lintas dari browser Anda akan diarahkan melalui Burp Suite sebelum sampai ke server target, memungkinkan Anda untuk melihat dan mengubahnya.
 
 1.  **Mulai Burp Suite**: Di Kali Linux, cari dan jalankan "Burp Suite Community Edition". Pilih *Temporary project* dan klik *Start Burp*.
-
+![Gambar 12.png](images/Gambar%2012.png)
+![gambar 13.png](images/gambar%2013.png)
 2.  **Konfigurasi Proxy**:
 
       * Di Burp Suite, pergi ke tab **Proxy \> Options**. Pastikan proxy listener aktif di `127.0.0.1:8080`.
-
+![gambar14.png](images/gambar14.png)
 3.  **Konfigurasi Browser (Firefox di Kali)**:
 
       * Buka Firefox. Pergi ke **Settings \> General**, scroll ke bawah ke **Network Settings**, klik **Settings...**.
       * Pilih **Manual proxy configuration**.
       * Isi *HTTP Proxy* dengan `127.0.0.1` dan *Port* dengan `8080`.
+    ![gambar15.png](images/gambar15.png)
       * Centang juga **Use this proxy for HTTPS**.
       * Klik **OK**.
 
@@ -222,10 +224,14 @@ Ini adalah langkah paling krusial. Burp Suite bekerja sebagai *Man-in-the-Middle
 
       * Dengan proxy masih aktif, buka alamat `http://burpsuite` di Firefox.
       * Klik tombol **CA Certificate** di pojok kanan atas untuk mengunduh file sertifikat (`cacert.der`).
+    ![gambar16.png](images/gambar16.png)
       * Di Firefox, pergi ke **Settings \> Privacy & Security**, scroll ke bawah ke **Certificates**, klik **View Certificates...**.
+    ![gambar17.png](images/gambar17.png)
       * Pilih tab **Authorities**, klik **Import...**.
+    ![gambar18.png](images/gambar18.png)
       * Pilih file `cacert.der` yang baru diunduh.
       * Centang **Trust this CA to identify websites.** dan klik **OK**.
+    ![gambar19.png](images/gambar19.png)
 
     Browser Anda sekarang akan "mempercayai" Burp Suite untuk mencegat lalu lintas HTTPS tanpa menampilkan error.
 
