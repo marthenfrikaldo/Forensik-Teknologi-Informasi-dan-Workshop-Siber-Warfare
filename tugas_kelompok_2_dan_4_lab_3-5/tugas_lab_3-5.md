@@ -389,30 +389,17 @@ Mari kita asumsikan kita memulai dari titik di mana kita sudah memiliki *shell* 
 
 ### **G. TUGAS: PENYUSUNAN LAPORAN UJI PENETRASI**
 
-**Tujuan:** Mengkonsolidasikan semua temuan dari Modul 3, 4, dan 5 ke dalam sebuah laporan profesional yang mensimulasikan hasil dari sebuah *penetration test engagement*.
-
-**Format Laporan:**
-
------
-Siap 🔥 berikut ini **versi lengkap laporan uji penetrasi jaringan lab `cyberlab-net` dalam format Markdown (.md)** — termasuk **diagram alur metodologi pengujian (flowchart)** dan struktur profesional dari awal sampai akhir.
-
-Kamu bisa langsung **copy-paste ke PyCharm** dan simpan sebagai file bernama:
-📄 `laporan_uji_penetrasi_cyberlabnet.md`
-
 ---
-
-````markdown
-# 🛡️ LAPORAN UJI PENETRASI: JARINGAN LAB cyberlab-net
-
-**Tanggal Engagement:** [Tanggal Mulai] – [Tanggal Selesai]  
-**Disusun oleh:** [Nama Anda / Kelompok Anda]  
+# LAPORAN UJI PENETRASI: JARINGAN LAB cyberlab-net
+ 
+**Disusun oleh:** Sertu Agung, Sertu Marthen, Sertu Putra, Sertu Bana, Praka Cayanto, Praka Alvyan / Kelompok 2 dan 3]  
 **Target:** `192.168.100.11`
 
 ---
 
 ## 📘 1. RINGKASAN EKSEKUTIF  
 
-Sebuah uji penetrasi internal dilakukan pada **server target 192.168.100.11** dalam jaringan laboratorium *cyberlab-net*.  
+Sebuah uji penetrasi internal dilakukan pada **server target 192.168.100.11** dalam jaringan laboratorium 
 Tim berhasil memperoleh **akses administratif penuh (root)** ke sistem target dengan mengeksploitasi **kerentanan kritis** pada layanan FTP (VSFTPD versi 2.3.4) yang terekspos.  
 
 Selain itu, ditemukan **kerentanan SQL Injection** pada aplikasi web **DVWA (Damn Vulnerable Web Application)** yang memungkinkan penyerang mengakses seluruh isi basis data tanpa autentikasi.  
@@ -446,31 +433,11 @@ Uji penetrasi dilakukan berdasarkan pendekatan umum *Penetration Testing Executi
    - Eksploitasi layanan FTP rentan menggunakan modul VSFTPD Backdoor.  
 
 4. **Web Application Testing (Burp Suite / DVWA)**  
-   - Uji kerentanan SQL Injection pada aplikasi web.  
+   - Uji kerentanan SQL Injection pada aplikasi web.
 
----
 
-### **Diagram Alur Uji Penetrasi**
 
-```mermaid
-flowchart TD
-    A[Reconnaissance] --> B[Vulnerability Analysis]
-    B --> C[Exploitation]
-    C --> D[Web Application Testing]
-    D --> E[Reporting & Recommendation]
-
-    A:::phase
-    B:::phase
-    C:::phase
-    D:::phase
-    E:::phase
-
-    classDef phase fill:#0066cc,stroke:#003366,stroke-width:2px,color:#fff;
-````
-
----
-
-## 🧩 3. TEMUAN DAN REKOMENDASI PERBAIKAN
+## 3. TEMUAN DAN REKOMENDASI PERBAIKAN
 
 ---
 
@@ -496,6 +463,7 @@ msf6 exploit(vsftpd_234_backdoor) > exploit
 whoami
 root
 ```
+![Bukti Konsep.png](images/Bukti%20Konsep.png)
 
 #### **Dampak:**
 
@@ -533,6 +501,11 @@ GET /dvwa/vulnerabilities/sqli/?id=1&Submit=Submit
 Request Dimodifikasi:
 GET /dvwa/vulnerabilities/sqli/?id=1' OR '1'='1&Submit=Submit
 ```
+![Request dan respon asli.png](images/Request%20dan%20respon%20asli.png)
+
+![request modifikasi.png](images/request%20modifikasi.png)
+
+![menampilkan userid.png](images/menampilkan%20userid.png)
 
 #### **Hasil:**
 
@@ -544,6 +517,9 @@ Penyerang dapat:
 
 * Membypass autentikasi login.
 * Membaca seluruh isi database, termasuk hash password.
+![menampilkan user id.png](images/menampilkan%20user%20id.png)
+![menampilkan userid.png](images/menampilkan%20userid.png)
+![request modifikasi.png](images/request%20modifikasi.png)
 * Mengubah atau menghapus data penting.
 
 #### **Rekomendasi:**
