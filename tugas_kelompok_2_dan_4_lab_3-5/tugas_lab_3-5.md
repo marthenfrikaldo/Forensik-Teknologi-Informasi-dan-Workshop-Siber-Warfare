@@ -227,6 +227,7 @@ Ini adalah langkah paling krusial. Burp Suite bekerja sebagai *Man-in-the-Middle
       * Klik tombol **CA Certificate** di pojok kanan atas untuk mengunduh file sertifikat (`cacert.der`).
     ![download certificate.png](images/download%20certificate.png)
       * Di Firefox, pergi ke **Settings \> Privacy & Security**, scroll ke bawah ke **Certificates**, klik **View Certificates...**.
+    ![setting firefox certificate.png](images/setting%20firefox%20certificate.png)
       * Pilih tab **Authorities**, klik **Import...**.
     ![gambar20.png](images/gambar20.png)
       * Pilih file `cacert.der` yang baru diunduh.
