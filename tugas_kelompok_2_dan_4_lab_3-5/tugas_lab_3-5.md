@@ -286,12 +286,16 @@ Metasploitable 2 memiliki aplikasi web yang sengaja rentan bernama *Damn Vulnera
 6.  **Gunakan Repeater**:
 
       * Klik kanan di dalam jendela request dan pilih **Send to Repeater**. Ini memungkinkan kita untuk memodifikasi dan mengirim ulang request berkali-kali tanpa harus melalui browser.
+    ![klik kanan repeater.png](images/klik%20kanan%20repeater.png)
+    ![repeater.png](images/repeater.png)
       * Pergi ke tab **Repeater**. Anda akan melihat request yang sama. Klik **Send**. Di panel kanan, Anda akan melihat respons dari server, menampilkan detail untuk user ID 1.
+    ![kliksend.png](images/kliksend.png)
 
 7.  **Uji Injeksi SQL**:
 
       * **Tujuan**: Kita akan mencoba memanipulasi parameter `id` untuk mengubah logika kueri SQL di backend.
       * **Payload Sederhana**: Ubah nilai parameter `id` dari `1` menjadi `1' OR '1'='1`. Tanda kutip (`'`) digunakan untuk "keluar" dari string kueri, dan `OR '1'='1'` adalah kondisi yang selalu benar.
+    ![ubah nilai parameter.png](images/ubah%20nilai%20parameter.png)
       * Request yang dimodifikasi di Repeater:
         ```http
         GET /dvwa/vulnerabilities/sqli/?id=1' OR '1'='1&Submit=Submit HTTP/1.1
@@ -299,6 +303,9 @@ Metasploitable 2 memiliki aplikasi web yang sengaja rentan bernama *Damn Vulnera
         ```
       * Klik **Send**.
       * **Analisis Respons**: Perhatikan panel respons. Anda akan melihat bahwa server sekarang mengembalikan **semua** data pengguna dari database, bukan hanya user ID 1. Ini membuktikan bahwa Anda berhasil menyuntikkan logika SQL dan membypass filter `WHERE id=...`. Anda telah menemukan kerentanan SQL Injection.
+    ![analis respon utama.png](images/analis%20respon%20utama.png)
+    ![menampilkan user id.png](images/menampilkan%20user%20id.png)
+    ![menampilkan userid.png](images/menampilkan%20userid.png)
 
 -----
 
