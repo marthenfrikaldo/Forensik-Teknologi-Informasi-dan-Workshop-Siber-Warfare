@@ -263,15 +263,18 @@ Metasploitable 2 memiliki aplikasi web yang sengaja rentan bernama *Damn Vulnera
 2.  **Login**: Kredensial default adalah `admin` / `password`.
 ![DVWA2.png](images/logindvwa.png)
 3.  **Atur Tingkat Kesulitan**: Di menu kiri, klik **DVWA Security**. Ubah *security level* menjadi **Low** dan klik *Submit*.
-
+![tingkat keamanan.png](images/tingkat%20keamanan.png)
 4.  **Pergi ke Halaman Target**: Klik menu **SQL Injection**. Anda akan melihat form input sederhana "User ID".
+![halaman target.png](images/halaman%20target.png)
 
 5.  **Cegat Request**:
 
       * Kembali ke Burp Suite, pergi ke tab **Proxy \> Intercept**. Pastikan tombolnya bertuliskan **Intercept is on**.
+   ![halaman target burpsuite.png](images/halaman%20target%20burpsuite.png) 
       * Kembali ke browser, di form User ID, masukkan angka `1` dan klik **Submit**.
+    ![masukin angka 1.png](images/masukin%20angka%201.png)
       * Jendela Burp Suite akan muncul ke depan, menampilkan request HTTP yang dicegat.
-
+![jendela burp akan muncul.png](images/jendela%20burp%20akan%20muncul.png)
     <!-- end list -->
 
     ```http

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd25160-a157-4e44-b6ee-f7214ada249c" name="Changes" comment="" />
+    <list default="true" id="9dd25160-a157-4e44-b6ee-f7214ada249c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tugas_kelompok_2_dan_4_lab_3-5/images/halaman target burpsuite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tugas_kelompok_2_dan_4_lab_3-5/images/halaman target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tugas_kelompok_2_dan_4_lab_3-5/images/tingkat keamanan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tugas_kelompok_2_dan_4_lab_3-5/tugas_lab_3-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/tugas_kelompok_2_dan_4_lab_3-5/tugas_lab_3-5.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
