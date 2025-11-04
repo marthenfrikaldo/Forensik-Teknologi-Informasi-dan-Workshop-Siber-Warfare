@@ -31,7 +31,7 @@ Modul ini akan menggunakan lingkungan lab yang telah dibangun sebelumnya dan men
   * **Kali Linux VM** (Penyerang) | IP: `192.168.100.10`
 ![gambar 1.png](images/gambar%201.png)
   * **Security Onion VM** (Pemantau) | IP: `192.168.100.100`
-
+!![gambar1 security.png](images/gambar1%20security.png)
 **3. Mesin Virtual Baru (Target Tambahan):**
 
   * **Metasploitable 2**: Ini adalah VM Linux yang sengaja dibuat sangat rentan untuk tujuan pembelajaran.
