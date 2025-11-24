@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd25160-a157-4e44-b6ee-f7214ada249c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tugas_kelompok_2_dan_4_lab_3-5/tugas_lab_3-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/tugas_kelompok_2_dan_4_lab_3-5/tugas_lab_3-5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hasil_scaning_nmap_192.168.100.10/Image/gambar1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hasil_scaning_nmap_192.168.100.10/Image/gambar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hasil_scaning_nmap_192.168.100.10/Image/gambar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hasil_scaning_nmap_192.168.100.10/Image/gambar4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hasil_scaning_nmap_192.168.100.10/hasil_scan_nmap_192.168.100.10.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,22 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/marthenfrikaldoantaribaba/Documents/GitHub/Forensik-Teknologi-Informasi-dan-Workshop-Siber-Warfare/tugas_kelompok_2_dan_4_lab_3-5&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/marthenfrikaldoantaribaba/Documents/GitHub/Forensik-Teknologi-Informasi-dan-Workshop-Siber-Warfare/hasil_scaning_nmap_192.168.100.10/Image"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tugas_kelompok_2_dan_4_lab_3-5" />
+      <recent name="$PROJECT_DIR$/hasil_scaning_nmap_192.168.100.10/Image" />
+      <recent name="$PROJECT_DIR$/hasil_scaning_nmap_192.168.100.10" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tugas_kelompok_2_dan_4_lab_3-5" />
       <recent name="$PROJECT_DIR$/tugas_analisis_minggu_1_dan_2/images" />
-      <recent name="$PROJECT_DIR$/tugas_analisis_minggu_1_dan_2" />
-      <recent name="$PROJECT_DIR$/Static Routing Topology/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Static Routing Topology/images" />
