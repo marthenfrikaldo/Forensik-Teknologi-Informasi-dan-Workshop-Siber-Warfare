@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd25160-a157-4e44-b6ee-f7214ada249c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/broken_acces_control/Image/id 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broken_acces_control/Image/berhasil login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broken_acces_control/Image/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broken_acces_control/Image/klik add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broken_acces_control/Image/list data password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broken_acces_control/Image/memuat informasi password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broken_acces_control/Image/payload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/broken_acces_control/Image/terbuka semua keranjang.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/broken_acces_control/Image/Keranjang ID 4.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/broken_acces_control/broken_access_control.md" beforeDir="false" afterPath="$PROJECT_DIR$/broken_acces_control/broken_access_control.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
