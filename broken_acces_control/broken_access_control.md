@@ -64,31 +64,33 @@ Semua website dipastikan membutuhkan access control. Oleh karena itu aturan dan 
 
 12. Website berhasil menampilkan isi keranjang pengguna lainnya berikut adalah isi keranjang pengguna : id (5).
 
- ![](image/image14.png)
+![id 5.png](Image/id%205.png)
 
 13. Disini saya sudah berhasil untuk melakukan challenge melihat keranjang orang lain.
 
- ![](image/image15.png)
+![berhasil.png](Image/berhasil.png)
 
 ## Percobaan : Login Admin
 
 1. Disini saya bermaksud ingin mencari data email, yang mana ditemukan di komentar ulasan. Dimana ada informasi email admin disana.
 
- ![](image/image16.png)
+ ![mencari email.png](Image/mencari%20email.png)
 
 2. Kemudian saya melakukan login dengan menggunakan password dummy, namun sebelumnya saya melakukan perubahan status menjadi on di intercept.
 
- ![](image/image17.png)
-
+![login password.png](Image/login%20password.png)
+![login intercept on.png](Image/login%20intercept%20on.png)
 3. Ketika melakukan submit login, intercept memberikan informasi berupa baris informasi yang mana memuat email dan password.
-
+![login password.png](Image/login%20password.png)
+![login intercept on.png](Image/login%20intercept%20on.png)
 4. Kemudian setelah melihat informasi tersebut, saya menggunakan ikon yang dikotaki warna merah untuk melakukan pengiriman menuju intruder, positions.
 
- ![](image/image18.png)
+![clear.png](Image/clear.png)
+![login password.png](Image/login%20password.png)
 
 5. Kemudian kita berpindah ke halaman intruder, positions dan melihat data informasi yang ada disana, kemudian klik clear. Ada penambahan beberapa data ketika proses melakukan clear data.
 
- ![](image/image19.png)
+![password dummy.png](Image/password%20dummy.png)
 
 6. Kemudian klik add, yang mana dalam hal ini akan membuat data email memiliki tambahan sign dollar didepannya. Hal ini membuat adanya perubahan yang ada.
 
