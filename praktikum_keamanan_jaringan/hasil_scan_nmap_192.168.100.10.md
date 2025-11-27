@@ -37,17 +37,16 @@ Semua website dipastikan membutuhkan access control. Oleh karena itu aturan dan 
 
 6. Kemudian saya pindahkan list request yang saya amati sebelumnya menuju repeater, kemudian saya send dan pada response terlihat data keranjang yang sudah sesuai dengan apa yang diinputkan sebelumnya.
 
- ![](image/image7.png)
+![list request.png](Image/list%20request.png)
+![halaman keranjang.png](Image/halaman%20keranjang.png)
 
- ![](image/image8.png)
+7. Setelah melihat informasi response di repeater, saya mencoba untuk mengganti data id 7 menjadi 2 untuk melihat apakah terdapat perubahan yang ditampilkan response. Dan ternyata response membrikan informasi berbeda dari sebelumnya yang mana ternyata menunjukkan isi keranjang id 2.
 
-7. Setelah melihat informasi response di repeater, saya mencoba untu mengganti data id 6 menjadi 2 untuk melihat apakah terdapat perubahan yang ditampilkan response. Dan ternyata response membrikan informasi berbeda dari sebelumnya yang mana ternyata menunjukkan isi keranjang id 2.
+ ![ganti id 7 menjadi id2.png](Image/ganti%20id%207%20menjadi%20id2.png)
 
- ![](image/image9.png)
+8. Kemudian disini saya akan menggunakan fitur intercept untuk menampilkan data keranjang user lain di dalam website owasp juice shop. Dimana saya merubah status intercept yang tadinya off menjadi on.
 
-8. Kemudian disini saya akan menggunakan fitur interceot untuk menampilkan data keranjang user lain di dalam website owasp juice shop. Dimana saya merubah status intercept yang tadinya off menjadi on.
-
- ![](image/image10.png)
+![Intercept off.png](Image/Intercept%20off.png)
 
 9. Ketika intercept on disini terdapat baris informasi request terkait owasp juice shop. Kemudian saya foorward data tersebut hingga menemukan data get /rest/basket/6, kemudian saya ganti data uiidnya dengan id lain selain id 6 kemudian saya forward kembali informasi tersebut.
 
