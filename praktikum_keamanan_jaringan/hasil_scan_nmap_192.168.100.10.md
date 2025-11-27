@@ -14,25 +14,26 @@ Semua website dipastikan membutuhkan access control. Oleh karena itu aturan dan 
 
 1. Setelah melakukan pengaksesan localhost 3000 di terminal dan mempersiapkan aplikasi burpsuite di sini, saya melakukan login dengan menggunakan akun yang sudah di daftarkan sebelumnya.           
 
-![gambar1.png](Image/gambar1.png)
+![login.png](Image/login.png)
 
 2. Kemudian setelah melakukan proses login disini akan di arahkan ke halaman dashboard untuk dapat memilih beberapa item dan nantinya akan disimpan ke keranjang.
-![gambar2.png](Image/gambar2.png)
+
+![halaman dashboard.png](Image/halaman%20dashboard.png)
  
 3. Kemudian menuju halaman keranjang untuk dapat melihat yang telah ditambahkan yaitu aple juice dan apple pomance masing masing 1 buah.
 
-![gambar3.png](Image/gambar3.png)
+![halamankeranjang.png](Image/halamankeranjang.png)
 
 4. Kemudian disini saya membuka halaman proxy di dalam http history untuk melihat track http history. Terdapat informasi host, method, url, status, length dan informasi pendukung lainnya.
 
- ![](image/image5.png)
+ ![track http history.png](Image/track%20http%20history.png)
 
 5. Kemudian setelah itu saya pilih http history yang memiliki params
- json dengan get /rest/basket/6. Kemudian saya lihat mengenai request
+ json dengan get /rest/basket/7. Kemudian saya lihat mengenai request
  dan response yang tertampil di halaman tersebut. Dimana response
  berisi informasi isi keranjang yang telah saya pilih sebelumnya.
 
- ![](image/image6.png)
+![params  json dengan get-rest-basket-7.png](Image/params%20%20json%20dengan%20get-rest-basket-7.png) 
 
 6. Kemudian saya pindahkan list request yang saya amati sebelumnya menuju repeater, kemudian saya send dan pada response terlihat data keranjang yang sudah sesuai dengan apa yang diinputkan sebelumnya.
 
