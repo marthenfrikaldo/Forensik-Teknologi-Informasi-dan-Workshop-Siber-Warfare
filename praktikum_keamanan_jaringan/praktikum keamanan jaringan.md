@@ -48,13 +48,14 @@ Semua website dipastikan membutuhkan access control. Oleh karena itu aturan dan 
 
 ![Intercept off.png](Image/Intercept%20off.png)
 
-9. Ketika intercept on disini terdapat baris informasi request terkait owasp juice shop. Kemudian saya foorward data tersebut hingga menemukan data get /rest/basket/6, kemudian saya ganti data uiidnya dengan id lain selain id 6 kemudian saya forward kembali informasi tersebut.
+9. Ketika intercept on disini terdapat baris informasi request terkait owasp juice shop. Kemudian saya foorward data tersebut hingga menemukan data get /rest/basket/7, kemudian saya ganti data uiidnya dengan id lain selain id 7 kemudian saya forward kembali informasi tersebut.
 
- ![](image/image11.png)
+![ketika intercept on.png](Image/ketika%20intercept%20on.png)
 
 10. Website berhasil menampilkan isi keranjang pengguna lainnya berikut adalah isi keranjang pengguna : id (2).
 
- ![](image/image12.png)
+![isi keranjang 2.png](Image/isi%20keranjang%202.png)
+ ![ganti id 7 menjadi id2.png](Image/ganti%20id%207%20menjadi%20id2.png)
 
 11. Website berhasil menampilkan isi keranjang pengguna lainnya berikut adalah isi keranjang pengguna : id (4).
 
