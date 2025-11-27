@@ -59,7 +59,8 @@ Semua website dipastikan membutuhkan access control. Oleh karena itu aturan dan 
 
 11. Website berhasil menampilkan isi keranjang pengguna lainnya berikut adalah isi keranjang pengguna : id (4).
 
- ![](image/image13.png)
+![keranjang id 4.png](Image/keranjang%20id%204.png)
+![id 4.png](Image/id%204.png)
 
 12. Website berhasil menampilkan isi keranjang pengguna lainnya berikut adalah isi keranjang pengguna : id (5).
 
