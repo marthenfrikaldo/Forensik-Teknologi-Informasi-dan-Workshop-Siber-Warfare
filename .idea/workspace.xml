@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd25160-a157-4e44-b6ee-f7214ada249c" name="Changes" comment="" />
+    <list default="true" id="9dd25160-a157-4e44-b6ee-f7214ada249c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/praktikum_keamanan_jaringan/Image/halaman keranjang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/praktikum_keamanan_jaringan/Image/track http history.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum_keamanan_jaringan/hasil_scan_nmap_192.168.100.10.md" beforeDir="false" afterPath="$PROJECT_DIR$/praktikum_keamanan_jaringan/hasil_scan_nmap_192.168.100.10.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

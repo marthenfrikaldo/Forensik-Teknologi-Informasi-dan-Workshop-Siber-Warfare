@@ -22,11 +22,11 @@ Semua website dipastikan membutuhkan access control. Oleh karena itu aturan dan 
  
 3. Kemudian menuju halaman keranjang untuk dapat melihat yang telah ditambahkan yaitu aple juice dan apple pomance masing masing 1 buah.
 
-![halamankeranjang.png](Image/halamankeranjang.png)
+![halaman keranjang.png](Image/halaman%20keranjang.png)
 
 4. Kemudian disini saya membuka halaman proxy di dalam http history untuk melihat track http history. Terdapat informasi host, method, url, status, length dan informasi pendukung lainnya.
 
- ![track http history.png](Image/track%20http%20history.png)
+![track http history.png](Image/track%20http%20history.png)
 
 5. Kemudian setelah itu saya pilih http history yang memiliki params
  json dengan get /rest/basket/7. Kemudian saya lihat mengenai request
